@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>base-types</name>
+  <version>1.0.0</version>
+  <description>
+        This software package are header-only definitions of types that are
+        generally useful for algorithms in robotic systems.
+  </description>
+  <license>LGPL v2 or later</license>
+  <maintainer email="sylvain.joyeux@m4x.org">Sylvain Joyeux</maintainer>
+  <author email="sylvain.joyeux@m4x.org">Sylvain Joyeux</author>
+
+  <buildtool_depend>cmake</buildtool_depend>
+  <depend>eigen3</depend>
+  <depend>boost</depend>
+  <depend>base-cmake</depend>
+  <depend>base-logging</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
+
